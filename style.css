@@ -1,0 +1,239 @@
+.custom-container{
+    width: 80%;
+    margin: 30px auto;
+}
+
+
+
+/* colors */
+:root {
+    --mavi:#252B42;
+    --sari:#FFA62B;
+    --goy:#16697A;
+    --aciq-mavi:#384163;
+    --aciq-goy:#00A0C1;
+}
+/* colors */
+
+
+
+ul{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+}
+
+
+input,select{
+    outline: 1px solid #BDBDBD;
+    border: none;
+    background-color: #F9F9F9
+    ;
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 37px;
+    font-size: 14px;
+    border: none;
+}
+
+
+
+
+.btn-sari{
+    background-color:  var(--sari);
+}
+
+.btn-transparent:hover{
+    border: 1px solid white;
+    background-color: var(--aciq-goy);
+}
+
+.btn-sari:hover{
+    background-color: var(--aciq-goy);
+}
+.btn-goy:hover{
+    background-color: var(--goy) !important;
+    color:#fff;
+}
+.btn-goy i:hover {
+    color: #fff;
+}
+
+
+.btn-goy  {
+    background-color: transparent !important;
+    border: 1px solid var(--aciq-goy) !important;
+    color: var(--aciq-goy);
+}
+
+
+
+
+.card-link i {
+    color: var(--aciq-goy);
+}
+.btn-transparent{
+    background-color: transparent;
+    border: 1px solid white;
+}
+.navbar{
+    background-color: var(--mavi);
+}
+
+.navbar-brand{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.navbar-nav a{
+    font-size: 14px;
+}
+
+.list-menu {
+    margin-left: 100px;
+}
+
+.hero{
+    background-color: var(--mavi)
+}
+
+.hero-desc{
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.short-intro{
+    background-color: var(--aciq-goy);
+}
+
+.short-intro_desc{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    
+}
+
+
+.features{
+    background-color: var(--aciq-goy);
+}
+.features .card{
+    padding: 35px 40px;
+}
+
+
+
+.about-desc{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.about{
+    background-color: var(--aciq-goy)
+
+}
+
+.about-icons{
+    color: var(--mavi);
+}
+
+.references{
+    background-color: var(--mavi);
+}
+
+.person-department{
+    color: var(--sari);
+    
+}
+
+
+.branches{
+    background-color: var(--mavi);
+}
+footer{
+    background-color: var(--mavi);
+}
+
+.footer-list-items{
+    line-height: 20px;
+    color: #fff;
+}
+
+
+footer i{
+    font-size: 24px;
+    height: 24px;
+}
+
+.copyright{
+    background-color: var(--aciq-mavi);
+}
+@media(max-width:715px){
+    .navbar-nav{
+        display: none;
+    }
+}
+
+@media(max-width:600px){
+    .list-menu {
+        margin-left: 20px;
+    }
+    .btn-transparent {
+        margin-top: 20px;
+    }
+    .w-map{
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
+@media(max-width:768px){
+    .intro .intro-line{
+        background-color: transparent !important;
+        padding: 0 !important;
+        
+    }
+    .intro .intro-line .intro-resp{
+        background-color: rgb(255, 255, 255) !important;
+        padding: 17px 9px !important;
+        
+    }
+
+
+    .about-right{
+        margin: 0 !important;
+    }
+    
+  
+   
+}
+
+
+
+@media(max-width:990px){
+   
+    
+    .features .card{
+        margin-top: 25px;
+    }
+
+    .references .card{
+        margin-top: 25px;
+    }
+   
+}
+
+
+@media(max-width:1024px){
+   
+    
+.form-right{
+    margin-left: 0 !important;
+}
+
+   
+}
